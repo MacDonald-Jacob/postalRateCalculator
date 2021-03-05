@@ -117,7 +117,7 @@ function calculateRate(weight, mail){
 
         if (mail == "first-class-packge-service-retail"){
             if (weight <= 4){
-                total = 4;
+                total = 4.00;
             }
             else if (weight <= 8){
                 total = 4.80;
