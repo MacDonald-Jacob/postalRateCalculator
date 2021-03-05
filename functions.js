@@ -132,6 +132,6 @@ function calculateRate(weight, mail){
                 total = "Package is to heavy. Try Again!";
             }
         }
-    fTotal = "$" + total.toFixed(2);
+    fTotal = "$" + total;
     return fTotal;
 }
